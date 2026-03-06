@@ -221,6 +221,10 @@ if __name__ == "__main__":
     build_source(particle, energies, intensities, numParticles, source_size)
     build_edep_actor(detector=sim.volume_manager.volumes["Detector"])
 
+    # Enable visualization (optional)
+    # Reduce number of particles!!!
+    #sim.visu = True
+
     # --- Run the simulation
     sim.run(start_new_process=True)
 

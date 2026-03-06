@@ -1,2 +1,5 @@
 output
 gate_env
+
+gate_visu*
+pycache/
